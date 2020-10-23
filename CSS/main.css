@@ -1,0 +1,210 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body, html {
+
+
+}
+
+body{
+    background-color: #999999;
+    font-family: Trebuchet MS, Helvetica;
+}
+
+
+.header{
+    
+}
+.logo{
+
+}
+.logo img{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* меню */
+/*Strip the ul of padding and list styling */
+.about{
+    width: 980px;
+height: 50px;
+margin:auto;
+background: #2f3036;
+text-align: center;
+}
+
+ul {
+    
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+    position: absolute;
+}
+
+/* Creates a horizontal list with spacing*/
+
+li {
+  display: inline-block;
+    
+  float: left;
+  margin-right: 1px;
+}
+
+/*Style for menu links */
+
+li a {
+  display: block;
+  min-width: 326px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #2f3036;
+  background: #ffffff;
+  text-decoration: none; 
+  
+}
+
+/* Hover State for top level links*/
+
+li:hover a {
+  background: #fe974e;
+}
+
+/* Style for dropdown links*/
+
+li:hover ul a {
+  background: #f3f3f3;
+  color: #2f3036;
+  height: 40px;
+  line-height: 40px;
+}
+
+/* Hover state for dropdown links */ 
+li:hover ul a:hover {
+  background: #19c589;
+  color: #fff;
+}
+
+/*Hide dropdown links until they are need */
+li ul {
+  display: none;
+}
+
+/*Make dropdown links vertical */
+
+li ul li {
+  display: block; 
+  float: none; 
+}
+
+/*Prevent text wrapping */
+li ul li a {
+  width: auto; 
+  min-width: 100px; 
+  padding: 0 20px; 
+}
+
+/*Display the dropdown on hover */
+ul li a:hover + .hidden, .hidden:hover {
+  display: block; 
+}
+/* Контент банер начало*/
+.baner {
+    position: relative;
+text-align: center;
+    margin-top: auto;
+}
+h1 {
+    position: absolute;
+    color: #edb03a;
+	top: 150px;
+	left: 0;
+	width: 100%;
+    
+    
+}
+h2 {
+    position: absolute;
+    color: #ffffff;
+	top: 200px;
+	left: 0;
+	width: 100%;
+    
+}
+/* Контент банер конец*/
+/* Меню с новостями и товаром начало*/
+.knopki{
+width: 980px;
+height: 60px;
+margin:auto;
+background: #52656b;
+}
+.knopki img {
+margin-left: 15px;
+margin-top: 5px;
+}
+.name{
+position: absolute;
+margin-top: 10px;
+margin-left: 435px;
+font-size: 30px;
+color: #c44d1a;
+}
+
+/* Меню с новостями и товаром конец*/
+/* Огонёк.Раздел новости начало*/
+.news{
+    width: 980px;
+height: 750px;
+margin:auto;
+background: #ffffff;
+}
+.new1{
+position: absolute;
+width: 285px;
+height: 325px;
+margin-top: 30px;
+margin-left: 125px;
+border: 5px solid silver; /* Параметры границы */
+background: #ffffff;   
+}
+.new1 p{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+.new2{
+position: absolute;
+width: 285px;
+height: 325px;
+margin-top: 30px;
+margin-left: 570px;
+border: 5px solid silver; /* Параметры границы */
+background: #ffffff;   
+}
+.new2 p{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+}
+.new3{
+position: absolute;
+width: 285px;
+height: 339px;
+margin-top: 385px;
+margin-left: 340px;
+border: 5px solid silver; /* Параметры границы */
+background: #ffffff;   
+}
+
+
+/* Огонёк.Раздел новости конец*/
