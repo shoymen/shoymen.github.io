@@ -1,4 +1,5 @@
-
+<meta http-equiv='refresh' content='3; url=https://you-hands.ru'>
+<meta charset="UTF-8" />
 <?php
 
 	if (isset($_POST['name']) && $_POST['name'] != "")//если существует атрибут NAME и он не пустой то создаем переменную для отправки сообщения
