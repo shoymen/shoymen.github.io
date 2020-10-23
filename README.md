@@ -1,2 +1,0 @@
-# shoymen.github.io
- 

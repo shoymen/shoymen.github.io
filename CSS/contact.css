@@ -43,6 +43,7 @@ ul {
     margin: 0; 
     padding: 0;
     position: absolute;
+    min-width: 981px;
 }
 
 /* Creates a horizontal list with spacing*/
