@@ -161,7 +161,7 @@ color: #fedf1f;
 /* Товар начало */
 .tovars{
     width: 980px;
-height: 750px;
+height: 100%;
 margin:auto;
 background: #ffffff;
 }

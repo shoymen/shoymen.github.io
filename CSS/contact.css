@@ -123,7 +123,7 @@ text-align: center;
 /* Контент */
 .contacts{
     width: 980px;
-height: 350px;
+height: 100%;
 margin:auto;
 background: #ffffff;
 }

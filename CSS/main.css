@@ -163,7 +163,7 @@ color: #c44d1a;
 /* Огонёк.Раздел новости начало*/
 .news{
     width: 980px;
-height: 750px;
+height: 100%;
 margin:auto;
 background: #ffffff;
 }

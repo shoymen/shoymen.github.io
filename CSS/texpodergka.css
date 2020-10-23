@@ -134,7 +134,7 @@ h1 {
 /* тех поддержка */
 .content{
     width: 980px;
-height: 550px;
+height: 100%;
 margin:auto;
 background: #ffffff;
 }
