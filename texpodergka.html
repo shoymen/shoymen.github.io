@@ -22,7 +22,16 @@
     <h1>Ответ в течение 24 часов!</h1>
 </div>
 <div class="content">
-<script src="https://yastatic.net/q/forms-frontend-ext/_/embed.js"></script><iframe src="https://forms.yandex.ru/u/5f933e02b576c85e5603f54c/?iframe=1" frameborder="0" name="ya-form-5f933e02b576c85e5603f54c" width="650"></iframe>
+<form name="form" action="mail.php" method="post" id="form_message">
+		<p> <div class="titles">Ваше имя*</div> <input class="input" name="name" type="text"/> </p><br>
+		 
+		<p> <div class="titles">Электронная почта*</div> <input class="input" name="email" type="text"/> </p><br>
+		 
+		<p> <div class="titles">Тема сообщения</div> <input class="input" name="subjects" type="text"/> </p><br>
+		 
+		<p> <div class="titles">Текст сообщения:</div><textarea name="message" cols="22" rows="5" /></textarea></p>
+		<p><input id="submit" value="Отправить" type="submit" /></p>
+</form>
 </div>
 </body>
 </html>
